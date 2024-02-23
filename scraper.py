@@ -3,7 +3,6 @@ from bs4 import BeautifulSoup
 import pandas as pd
 import matplotlib.pyplot as plt
 
-
 prefix = "https://content.codecademy.com/courses/beautifulsoup/"
 webpage_response = requests.get('https://content.codecademy.com/courses/beautifulsoup/shellter.html')
 
